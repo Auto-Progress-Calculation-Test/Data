@@ -12,8 +12,52 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SN_ITK_DEFC",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            },
+            "title": "URBANISATION"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

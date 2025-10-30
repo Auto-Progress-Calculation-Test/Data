@@ -12,12 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems [7.a.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
             "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Kenyan Shillings",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]

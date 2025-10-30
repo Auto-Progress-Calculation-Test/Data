@@ -12,7 +12,69 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SE_TOT_CPLR",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCED11A_1",
+                "_L_KE_3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -12,8 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FB_CBK_BRCH",
+                "FB_ATM_TOTL",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NUMBER",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

@@ -12,7 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "IC_GEN_MGTN_19ICLS",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PWSM_PUBLIC",
+                "PWSM_PRIVATE",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

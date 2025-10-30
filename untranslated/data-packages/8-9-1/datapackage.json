@@ -12,7 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ST_GDP_ZS",
+                "_L_KE_080901_01",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

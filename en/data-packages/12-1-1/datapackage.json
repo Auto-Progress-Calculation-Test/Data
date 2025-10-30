@@ -12,12 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Countries with coordination mechanism for sustainable consumption and production (1 = YES; 0 = NO) [12.1.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
             "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Boolean or binary measure",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]

@@ -12,8 +12,52 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population that feel safe walking alone around the area they live in [16.1.4]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

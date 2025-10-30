@@ -12,8 +12,53 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of teachers with the minimum required qualifications, by education level and sex [4.c.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pre-primary education",
+                "Primary education",
+                "Secondary education (lower and upper secondary education)",
+                ""
+              ]
+            },
+            "title": "Education level"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

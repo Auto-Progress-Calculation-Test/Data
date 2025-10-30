@@ -12,8 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "DC_TRF_TFDV",
+                "_L_KE_100b01_01",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KES",
+                "PT",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

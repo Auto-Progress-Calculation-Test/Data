@@ -1,1 +1,21 @@
-Year,Value
+Year,SERIES,Reference area,Sex,Degree of urbanisation,Education level,UNIT_MEASURE,Value
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,,"Primary education, sufficient for level completion",Percent,17.5
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,,"Primary education, sufficient for level completion",Percent,14.2
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Rural,"Primary education, sufficient for level completion",Percent,18.0
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Rural,"Primary education, sufficient for level completion",Percent,15.6
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Urban,"Primary education, sufficient for level completion",Percent,16.1
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Urban,"Primary education, sufficient for level completion",Percent,9.9
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Female,,"Primary education, sufficient for level completion",Percent,17.4
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Female,,"Primary education, sufficient for level completion",Percent,12.8
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Male,,"Primary education, sufficient for level completion",Percent,17.6
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Male,,"Primary education, sufficient for level completion",Percent,15.5
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,,Secondary,Percent,31.3
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,,Secondary,Percent,41.2
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Rural,Secondary,Percent,25.1
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Rural,Secondary,Percent,37.9
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Urban,Secondary,Percent,42.0
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,,Urban,Secondary,Percent,47.1
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Female,,Secondary,Percent,31.2
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Female,,Secondary,Percent,40.4
+2019,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Male,,Secondary,Percent,31.3
+2024,"Completion rate, by sex, location, wealth quintile and education level (%) [4.1.2]",,Male,,Secondary,Percent,42.2

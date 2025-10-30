@@ -12,7 +12,58 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SE_ADT_FUNS",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y15T24",
+                "Y15T49",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

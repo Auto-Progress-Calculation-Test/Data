@@ -12,7 +12,48 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SE_TRA_GRDL",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCED11_02",
+                "ISCED11_1",
+                "AGG_2_3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

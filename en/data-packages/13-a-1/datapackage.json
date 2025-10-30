@@ -7,13 +7,45 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "utf-8",
+      "encoding": "iso8859-1",
       "schema": {
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment [13.a.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "USD",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

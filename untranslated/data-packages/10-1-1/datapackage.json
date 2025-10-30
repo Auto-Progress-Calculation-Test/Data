@@ -12,7 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SI_HEI_TOTL",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "INCOME_WEALTH_QUANTILE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "B40",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

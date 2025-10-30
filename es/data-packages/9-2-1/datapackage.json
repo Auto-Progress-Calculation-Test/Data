@@ -12,8 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NV_IND_MANF",
+                "NV_IND_MANFPC",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                "KES",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

@@ -12,11 +12,54 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SP_TRN_PUBL",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KE_NBO",
+                "KE_MBA",
+                "KE_KIS",
+                "KE_NUU",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CITY",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

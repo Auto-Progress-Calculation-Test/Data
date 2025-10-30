@@ -1,1 +1,5 @@
-Year,Value
+Year,SERIES,Reference area,Degree of urbanisation,UNIT_MEASURE,Value
+2019,Proportion of population that has convenient access to public transport [11.2.1],Nairobi,City,Percent,66
+2019,Proportion of population that has convenient access to public transport [11.2.1],Mombasa,City,Percent,20
+2019,Proportion of population that has convenient access to public transport [11.2.1],Kisumu,City,Percent,10
+2019,Proportion of population that has convenient access to public transport [11.2.1],Nakuru,City,Percent,16

@@ -12,12 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments [16.4.2]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
             "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]

@@ -12,8 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population using basic drinking water services [1.4.1]",
+                "Proportion of population using basic sanitation services [1.4.1]",
+                "Proportion of population using basic hygiene services",
+                "Proportion of population with access to electricity",
+                "Proportion of population using clean fuels and technologies",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

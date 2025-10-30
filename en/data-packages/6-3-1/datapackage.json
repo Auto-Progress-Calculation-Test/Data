@@ -12,8 +12,53 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of wastewater safely treated, by activity and location (%) [6.3.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Domestic",
+                "Domestic (Sewer)",
+                "Domestic (Septic tank)",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

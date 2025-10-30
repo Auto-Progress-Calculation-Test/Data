@@ -12,12 +12,54 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
-            "name": "Value",
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_010501_01",
+                "_L_KE_010501_02",
+                "VC_DSR_MORT",
+                "VC_DSR_IJILN",
+                "VC_DSR_MISS",
+                "_L_KE_010501_06",
+                "_L_KE_010501_07",
+                "_L_KE_010501_03",
+                "_L_KE_010501_04",
+                "_L_KE_130101_03",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
             "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PER_1000000_POP",
+                "NUMBER",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]

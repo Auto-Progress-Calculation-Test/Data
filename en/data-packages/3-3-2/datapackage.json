@@ -12,12 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
-            "name": "Value",
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tuberculosis incidence [3.3.2]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
             "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 100,000 population",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
             "title": "Value"
           }
         ]

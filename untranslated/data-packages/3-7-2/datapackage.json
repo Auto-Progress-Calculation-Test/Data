@@ -12,7 +12,57 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SP_DYN_ADKL",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y10T14",
+                "Y15T19",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PER_1000_POP",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

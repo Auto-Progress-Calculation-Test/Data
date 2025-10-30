@@ -12,8 +12,89 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SE_TOT_PRFL",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            },
+            "title": "URBANISATION"
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_1",
+                "ISCED11A_1",
+                "ISCED11_2",
+                ""
+              ]
+            },
+            "title": "EDUCATION_LEV"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SKILL_READ",
+                "SKILL_MATH",
+                ""
+              ]
+            },
+            "title": "COMPOSITE_BREAKDOWN"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

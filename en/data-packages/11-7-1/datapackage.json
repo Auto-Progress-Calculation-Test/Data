@@ -12,8 +12,55 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Average share of the built-up area of cities that is open space for public use for all [11.7.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nairobi",
+                "Mombasa",
+                "Kisumu",
+                "Nakuru",
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "City",
+                ""
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

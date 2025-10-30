@@ -12,11 +12,46 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_161001_01",
+                "VC_VAW_MTUHRA",
+                "_L_KE_161001_02",
+                "VC_VOC_ENFDIS",
+                "_L_KE_161001_03",
+                "_L_KE_161001_04",
+                "_L_KE_161001_05",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NUMBER",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

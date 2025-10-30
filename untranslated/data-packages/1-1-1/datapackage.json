@@ -15,19 +15,48 @@
             "type": "integer"
           },
           {
-            "name": "Group",
+            "name": "SERIES",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "SI_POV_DAY1",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

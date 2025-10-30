@@ -12,8 +12,93 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SG_DMK_PARLMP_UC",
+                "_L_KE_160701_01",
+                "_L_KE_160701_03",
+                "_L_KE_160701_04",
+                "_L_KE_160701_05",
+                "_L_KE_160701_06",
+                "_L_KE_160701_07",
+                "_L_KE_160701_02",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y18T44",
+                ""
+              ]
+            },
+            "title": "AGE"
+          },
+          {
+            "name": "OCCUPATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCO08_2612",
+                "ISCO08_2619R",
+                ""
+              ]
+            },
+            "title": "OCCUPATION"
+          },
+          {
+            "name": "DISABILITY_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PD",
+                ""
+              ]
+            },
+            "title": "DISABILITY_STATUS"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                "RO",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

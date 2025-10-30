@@ -12,8 +12,55 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ratio of land consumption rate to population growth rate [11.3.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nairobi",
+                "Mombasa",
+                "Kisumu",
+                "Nakuru",
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "City",
+                ""
+              ]
+            },
+            "title": "Degree of urbanisation"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "Value",

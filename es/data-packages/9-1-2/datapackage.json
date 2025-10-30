@@ -12,8 +12,55 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_090102_01",
+                "_L_KE_090102_02",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MOT_RAI",
+                "MOT_AIR",
+                "MOT_IWW_SEA",
+                ""
+              ]
+            },
+            "title": "COMPOSITE_BREAKDOWN"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NUMBER",
+                "T",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",

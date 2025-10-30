@@ -16,20 +16,52 @@
             "title": "Año"
           },
           {
-            "name": "Group",
+            "name": "SERIES",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "SI_POV_DAY1",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "SERIES"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "REF_AREA"
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            },
+            "title": "URBANISATION"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

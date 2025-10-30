@@ -1,1 +1,8 @@
-Year,Value
+Year,SERIES,Reference area,Sex,UNIT_MEASURE,Value
+2014,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,,"Per 1,000 uninfected population",5.0
+2018,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,,"Per 1,000 uninfected population",1.4
+2019,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,,"Per 1,000 uninfected population",1.2
+2014,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,Female,"Per 1,000 uninfected population",5.0
+2018,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,Female,"Per 1,000 uninfected population",1.5
+2014,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,Male,"Per 1,000 uninfected population",5.0
+2018,"Number of new HIV infections per 1,000 uninfected population [3.3.1]",,Male,"Per 1,000 uninfected population",1.3

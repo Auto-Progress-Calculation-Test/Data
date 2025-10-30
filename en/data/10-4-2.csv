@@ -1,1 +1,4 @@
-Year,Value
+Year,SERIES,Reference area,UNIT_MEASURE,Value
+2016,Change in GINI,,Percent,9.3
+2016,Pre-fiscal GINI index,,Percent,45.0
+2016,Post-fiscal GINI index,,Percent,35.7

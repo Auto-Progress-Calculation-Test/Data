@@ -1,1 +1,1 @@
-{"data":[],"edges":[]}
+{"data":{"Year":[2024,2022,2022,2022,2016,2016],"SERIES":["SP_LGL_LNDAGSEC","SP_LGL_LNDAGSEC","SP_LGL_LNDAGSEC","SP_LGL_LNDAGSEC","SP_GNP_WNOWNS","_L_KE_050a01_01"],"REF_AREA":[null,null,null,null,null,null],"SEX":[null,"F","F","F","F","M"],"URBANISATION":[null,null,"R","U",null,null],"UNIT_MEASURE":["PT","PT","PT","PT","PT","PT"],"Value":[66.0,25.4,33.4,10.0,31.7,68.3]},"edges":{"From":["SEX"],"To":["URBANISATION"]}}
