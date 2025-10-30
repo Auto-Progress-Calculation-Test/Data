@@ -34,11 +34,16 @@ auto_progress_calculation: true
 progress_calculation_options:
 - direction: positive
   series: Proportion of population using basic drinking water services [1.4.1]
+  base_year: 2014
 - direction: positive
   series: Proportion of population using basic sanitation services [1.4.1]
+  base_year: 2014
 - direction: positive
   series: Proportion of population using basic hygiene services
+  base_year: 2014
 - direction: positive
   series: Proportion of population with access to electricity
+  base_year: 2014
 - direction: positive
   series: Proportion of population using clean fuels and technologies
+  base_year: 2014
