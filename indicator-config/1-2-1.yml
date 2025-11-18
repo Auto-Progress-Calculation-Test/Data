@@ -32,5 +32,6 @@ standalone: false
 tags: []
 auto_progress_calculation: true
 progress_calculation_options:
-- direction: negative
-  limit: 100
+  - direction: negative
+    target: 23.3
+
