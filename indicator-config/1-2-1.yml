@@ -34,4 +34,5 @@ auto_progress_calculation: true
 progress_calculation_options:
   - direction: negative
     target: 23.3
+    base_year: 2014
 
