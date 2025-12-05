@@ -12,41 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "EN_LND_SLUM",
-                "_L_KE_110101_01",
-                "_L_KE_110101_02",
-                "_L_KE_110101_03",
-                "_L_KE_110101_04",
-                "_L_KE_110101_05",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "REF_AREA",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

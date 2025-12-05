@@ -12,56 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Parity indices for all education indicators",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "REF_AREA",
             "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "EDUCATION_LEV",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Pre-primary education",
-                "Primary education",
-                "Junior School",
-                "Secondary",
-                "Middle-Level Colleges",
-                "University",
-                ""
-              ]
-            },
-            "title": "Education level"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Ratio",
-                ""
-              ]
-            },
-            "title": "Unit of measure"
+            "title": "Year"
           },
           {
             "name": "Value",

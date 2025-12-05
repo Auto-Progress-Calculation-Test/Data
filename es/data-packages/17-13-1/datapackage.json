@@ -12,68 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
-            "title": "Año"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_KE_171301_01",
-                "BN_CAB_XOKA_GD_ZS",
-                "BX_KLT_DINV_WD_GD_ZS",
-                "BN_KLT_PTXL_CD",
-                "_L_KE_171301_09",
-                "_L_KE_171301_02",
-                "DT_DOD_DECT_GN_ZS",
-                "_L_KE_171301_03",
-                "_L_KE_171301_04",
-                "FM_LBL_BMNY_ZG",
-                "FM_LBL_BMNY_IR_ZS",
-                "_L_KE_171301_05",
-                "FB_BNK_CAPA_ZS",
-                "NY_GDP_MKTP_KD_ZG",
-                "GC_TAX_TOTL_GD_ZS",
-                "_L_KE_171301_06",
-                "DP_DOD_DLD2_CR_CG_Z1",
-                "NE_GDI_TOTL_KD_ZG",
-                "NE_CON_PRVT_KD_ZG",
-                "NE_CON_GOVT_KD_ZG",
-                "NE_EXP_GNFS_KD_ZG",
-                "NE_IMP_GNFS_KD_ZG",
-                "FP_CPI_TOTL_ZG",
-                "_L_KE_171301_07",
-                "_L_KE_171301_08",
-                ""
-              ]
-            },
-            "title": "SERIES"
-          },
-          {
-            "name": "REF_AREA",
             "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "REF_AREA"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                "USD",
-                "MO",
-                "KES_TO_USD",
-                "IX",
-                ""
-              ]
-            },
-            "title": "UNIT_MEASURE"
+            "title": "Año"
           },
           {
             "name": "Value",

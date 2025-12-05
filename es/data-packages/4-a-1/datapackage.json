@@ -12,54 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
-            "title": "Año"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "SE_ACS_ELECT",
-                "SE_ACS_INTNT",
-                "SE_ACS_CMPTR",
-                ""
-              ]
-            },
-            "title": "SERIES"
-          },
-          {
-            "name": "REF_AREA",
             "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "REF_AREA"
-          },
-          {
-            "name": "EDUCATION_LEV",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "ISCED11_1",
-                "_L_KE_3",
-                ""
-              ]
-            },
-            "title": "EDUCATION_LEV"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PT",
-                ""
-              ]
-            },
-            "title": "UNIT_MEASURE"
+            "title": "Año"
           },
           {
             "name": "Value",

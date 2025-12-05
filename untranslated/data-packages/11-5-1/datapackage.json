@@ -12,50 +12,11 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_KE_010501_01",
-                "_L_KE_010501_02",
-                "VC_DSR_MORT",
-                "VC_DSR_IJILN",
-                "VC_DSR_MISS",
-                "_L_KE_010501_06",
-                "_L_KE_010501_07",
-                "_L_KE_010501_03",
-                "_L_KE_010501_04",
-                "_L_KE_130101_03",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "REF_AREA",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "PER_1000000_POP",
-                "NUMBER",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

@@ -1,1 +1,1 @@
-{"data":{"Year":[2014,2014,2014],"SERIES":["IC_GEN_MGTN_19ICLS","IC_GEN_MGTN_19ICLS","IC_GEN_MGTN_19ICLS"],"REF_AREA":[null,null,null],"SEX":["F","F","F"],"COMPOSITE_BREAKDOWN":[null,"PWSM_PUBLIC","PWSM_PRIVATE"],"UNIT_MEASURE":["PT","PT","PT"],"Value":[22.2,19.4,22.6]},"edges":{"From":["SEX"],"To":["COMPOSITE_BREAKDOWN"]}}
+{"data":[],"edges":[]}

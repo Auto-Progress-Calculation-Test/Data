@@ -12,41 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "AG_FPA_COMM",
-                "_L_KE_020C01_01",
-                "_L_KE_020C01_02",
-                "_L_KE_020C01_03",
-                "_L_KE_020C01_04",
-                "_L_KE_020C01_05",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "REF_AREA",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "IX",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

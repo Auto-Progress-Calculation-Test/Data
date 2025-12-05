@@ -1,11 +1,1 @@
-Year,SERIES,Reference area,Sex,Degree of urbanisation,UNIT_MEASURE,Value
-2014,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,,,Percent,28.8
-2022,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,,,Percent,28.0
-2014,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,,Rural,Percent,27.3
-2022,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,,Rural,Percent,25.4
-2014,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,,Urban,Percent,29.9
-2022,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,,Urban,Percent,25.4
-2014,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,Female,,Percent,22.7
-2022,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,Female,,Percent,28.1
-2014,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,Male,,Percent,33.9
-2022,"Proportion of population subjected to physical, psychological or sexual violence in the previous 12 months",,Male,,Percent,22.4
+Year,Value
