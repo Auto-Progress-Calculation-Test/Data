@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y0T17",
+                "Y18T25",
+                "Y25T59",
+                "Y_GE60",
+                ""
+              ]
+            },
+            "title": "AGE"
           },
           {
             "name": "Value",
@@ -26,5 +52,5 @@
   ],
   "profile": "data-package",
   "name": "16-1-1",
-  "title": "Number of victims of intentional homicide per 100,000 population, by sex and age"
+  "title": "Número de víctimas de homicidios intencionales por cada 100.000 habitantes, desglosado por sexo y edad"
 }

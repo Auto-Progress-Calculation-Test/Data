@@ -1,1 +1,11 @@
-Year,Value
+Year,COMMENT_OBS,Sex,Degree of urbanisation,Value
+2019,2019:  KPHC,,,21.9
+2024,2019:  KPHC,,,55.9
+2019,2019:  KPHC,,Rural,14.6
+2024,2019:  KPHC,,Rural,58.7
+2019,2019:  KPHC,,Urban,36.5
+2024,2019:  KPHC,,Urban,50.0
+2019,2019:  KPHC,Female,,20.4
+2024,2019:  KPHC,Female,,53.8
+2019,,Male,,23.5
+2024,,Male,,58.2

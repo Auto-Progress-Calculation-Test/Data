@@ -12,7 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FI_FSI_FSKA",
+                "FI_FSI_FSKRTC",
+                "FI_FSI_FSKNL",
+                "FI_FSI_FSANL",
+                "FI_FSI_FSERA",
+                "FI_FSI_FSSNO",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +39,5 @@
   ],
   "profile": "data-package",
   "name": "10-5-1",
-  "title": "Financial Soundness Indicators"
+  "title": "global_indicators.10-5-1-title"
 }

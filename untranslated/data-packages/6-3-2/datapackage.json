@@ -12,7 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EN_H2O_WBAMBQ",
+                "EN_H2O_OPAMBQ",
+                "EN_H2O_RVAMBQ",
+                "EN_H2O_GRAMBQ",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +37,5 @@
   ],
   "profile": "data-package",
   "name": "6-3-2",
-  "title": "Proportion of bodies of water with good ambient water quality"
+  "title": "global_indicators.6-3-2-title"
 }

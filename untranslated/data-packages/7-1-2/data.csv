@@ -1,1 +1,29 @@
-Year,Value
+Year,COMMENT_OBS,SERIES,URBANISATION,Value
+2014,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,,11.9
+2016,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,,14.6
+2018,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,,19.8
+2019,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,,25.4
+2024,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,,34.4
+2014,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,R,2.1
+2016,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,R,3.0
+2024,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,R,11.1
+2014,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,U,25.4
+2016,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,U,29.7
+2024,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,_L_KE_070102_01,U,71.5
+2014,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,,12.3
+2016,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,,10.7
+2019,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,,25.1
+2022,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,,21.2
+2024,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,,26.1
+2014,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,R,1.6
+2022,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,R,4.9
+2024,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,R,8.1
+2014,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,U,27.9
+2022,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,U,53.4
+2024,2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS,EG_EGY_CLEAN,U,64.9
+2024,2024: 2023/24 KHS,_L_KE_070102_02,,33.3
+2024,2024: 2023/24 KHS,_L_KE_070102_02,R,10.6
+2024,2024: 2023/24 KHS,_L_KE_070102_02,U,69.5
+2024,2024: 2023/24 KHS,EG_CFT_COOK,,25.0
+2024,2024: 2023/24 KHS,EG_CFT_COOK,R,7.6
+2024,2024: 2023/24 KHS,EG_CFT_COOK,U,62.5

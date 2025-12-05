@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "8-a-1",
-  "title": "Aid for Trade commitments and disbursements"
+  "title": "Compromisos y desembolsos en relación con la iniciativa Ayuda para el Comercio"
 }

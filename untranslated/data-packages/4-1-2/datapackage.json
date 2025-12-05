@@ -12,7 +12,40 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F",
+                "M",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCED11A_1",
+                "_L_KE_3",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +57,5 @@
   ],
   "profile": "data-package",
   "name": "4-1-2",
-  "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
+  "title": "global_indicators.4-1-2-title"
 }

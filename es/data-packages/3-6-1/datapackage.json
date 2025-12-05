@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "3-6-1",
-  "title": "Death rate due to road traffic injuries"
+  "title": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico"
 }

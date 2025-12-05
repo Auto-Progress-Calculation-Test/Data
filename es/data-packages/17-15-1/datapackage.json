@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SG_PLN_PRPOLRES",
+                "_L_KE_171501_01",
+                ""
+              ]
+            },
+            "title": "SERIES"
           },
           {
             "name": "Value",
@@ -26,5 +38,5 @@
   ],
   "profile": "data-package",
   "name": "17-15-1",
-  "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation"
+  "title": "Grado de utilización de los marcos de resultados y las herramientas de planificación de los propios países por los proveedores de cooperación para el desarrollo"
 }

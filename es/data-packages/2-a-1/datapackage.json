@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "2-a-1",
-  "title": "The agriculture orientation index for government expenditures"
+  "title": "Índice de orientación agrícola para el gasto público"
 }

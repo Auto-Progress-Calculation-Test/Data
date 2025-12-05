@@ -12,7 +12,51 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "6",
+                "0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KNBS, Economic Survey Report (Several  editions)",
+                "Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org\"",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "DC_TRF_TFDV",
+                "_L_KE_100b01_01",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "KES",
+                "PT",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +68,5 @@
   ],
   "profile": "data-package",
   "name": "10-b-1",
-  "title": "Total resource flows for development (e.g. official development assistance, foreign direct investment and other flows)"
+  "title": "global_indicators.10-b-1-title"
 }

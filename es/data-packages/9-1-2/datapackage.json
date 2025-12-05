@@ -12,8 +12,45 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_090102_01",
+                "_L_KE_090102_02",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MOT_RAI",
+                "MOT_AIR",
+                "MOT_IWW_SEA",
+                ""
+              ]
+            },
+            "title": "COMPOSITE_BREAKDOWN"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NUMBER",
+                "T",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
           },
           {
             "name": "Value",
@@ -26,5 +63,5 @@
   ],
   "profile": "data-package",
   "name": "9-1-2",
-  "title": "Passenger and freight volumes, by mode of transport"
+  "title": "Volumen de transporte de pasajeros y carga, desglosado por medio de transporte"
 }

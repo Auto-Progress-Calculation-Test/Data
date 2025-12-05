@@ -12,7 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2014: KDHS                  2016: KIHBS                2018:                            2019: KPHC                 2020: KCHS                2021: KCHS              2022 KDHS",
+                "2024: 2023/24 KHS",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_070102_01",
+                "EG_EGY_CLEAN",
+                "_L_KE_070102_02",
+                "EG_CFT_COOK",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +59,5 @@
   ],
   "profile": "data-package",
   "name": "7-1-2",
-  "title": "Proportion of population with primary reliance on clean fuels and technology"
+  "title": "global_indicators.7-1-2-title"
 }

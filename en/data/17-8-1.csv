@@ -1,1 +1,45 @@
-Year,Value
+Year,Sex,Age,Degree of urbanisation,Value
+2014,,,,6.3
+2016,,,,16.6
+2019,,,,22.7
+2023,,,,35.0
+2019,,,Rural,13.8
+2023,,,Rural,25.0
+2019,,,Urban,42.6
+2023,,,Urban,56.6
+2019,Female,,,20.2
+2023,Female,,,32.2
+2019,Male,,,25.2
+2023,Male,,,37.8
+2019,,(3-4),,2.1
+2023,,(3-4),,6.2
+2019,,5 to 9 years old,,2.7
+2023,,5 to 9 years old,,8.9
+2019,,10 to 14 years old,,4.0
+2023,,10 to 14 years old,,11.1
+2019,,15 to 19 years old,,18.9
+2023,,15 to 19 years old,,30.6
+2019,,20 to 24 years old,,48.2
+2023,,20 to 24 years old,,64.0
+2019,,25 to 29 years old,,47.9
+2023,,25 to 29 years old,,61.8
+2019,,30 to 34 years old,,41.0
+2023,,30 to 34 years old,,56.2
+2019,,35 to 39 years old,,37.9
+2023,,35 to 39 years old,,48.1
+2019,,40 to 44 years old,,32.4
+2023,,40 to 44 years old,,46.0
+2019,,45 to 49 years old,,28.8
+2023,,45 to 49 years old,,41.8
+2019,,50 to 54 years old,,26.1
+2023,,50 to 54 years old,,38.5
+2019,,55 to 59 years old,,20.8
+2023,,55 to 59 years old,,35.0
+2019,,60 to 64 years old,,15.1
+2023,,60 to 64 years old,,26.0
+2019,,65 to 69 years old,,10.6
+2023,,65 to 69 years old,,20.4
+2019,,70 to 74 years old,,7.6
+2023,,70 to 74 years old,,12.4
+2019,,75 years old and over,,4.2
+2023,,75 years old and over,,6.9

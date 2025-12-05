@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "15-1-1",
-  "title": "Forest area as a proportion of total land area"
+  "title": "Superficie forestal en proporción a la superficie total"
 }

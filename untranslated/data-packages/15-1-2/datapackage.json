@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ER_PTD_TERR",
+                "ER_PTD_FRHWTR",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +35,5 @@
   ],
   "profile": "data-package",
   "name": "15-1-2",
-  "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type"
+  "title": "global_indicators.15-1-2-title"
 }

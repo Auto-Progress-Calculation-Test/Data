@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PWSM_PUBLIC",
+                "PWSM_PRIVATE",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +35,5 @@
   ],
   "profile": "data-package",
   "name": "5-5-2",
-  "title": "Proportion of women in managerial positions"
+  "title": "global_indicators.5-5-2-title"
 }

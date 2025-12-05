@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SH_XPD_EARN10",
+                "SH_XPD_EARN25",
+                ""
+              ]
+            },
+            "title": "SERIES"
           },
           {
             "name": "Value",
@@ -26,5 +38,5 @@
   ],
   "profile": "data-package",
   "name": "3-8-2",
-  "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income"
+  "title": "Proporción de la población con grandes gastos sanitarios por hogar como porcentaje del total de gastos o ingresos de los hogares"
 }

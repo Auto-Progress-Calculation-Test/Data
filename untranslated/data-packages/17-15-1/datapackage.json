@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SG_PLN_PRPOLRES",
+                "_L_KE_171501_01",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +35,5 @@
   ],
   "profile": "data-package",
   "name": "17-15-1",
-  "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation"
+  "title": "global_indicators.17-15-1-title"
 }

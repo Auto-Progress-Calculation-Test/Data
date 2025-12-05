@@ -12,8 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SP_ACS_BSRVH2O",
+                "SP_ACS_BSRVSAN",
+                "_L_KE_010401_01",
+                "_L_KE_010401_02",
+                "_L_KE_010401_03",
+                ""
+              ]
+            },
+            "title": "SERIES"
           },
           {
             "name": "Value",
@@ -26,5 +41,5 @@
   ],
   "profile": "data-package",
   "name": "1-4-1",
-  "title": "Proportion of population living in households with access to basic services"
+  "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos"
 }

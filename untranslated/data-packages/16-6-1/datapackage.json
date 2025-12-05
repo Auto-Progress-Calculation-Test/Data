@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GF_XPD_GBPC",
+                "_L_KE_160601_01",
+                "_L_KE_160601_02",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "16-6-1",
-  "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)"
+  "title": "global_indicators.16-6-1-title"
 }

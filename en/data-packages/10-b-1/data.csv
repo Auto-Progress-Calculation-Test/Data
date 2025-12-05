@@ -1,1 +1,23 @@
-Year,Value
+Year,Unit multiplier,COMMENT_OBS,SERIES,UNIT_MEASURE,Value
+2014,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,26957.1
+2015,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,28117.5
+2016,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,29596.7
+2017,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,25904.0
+2018,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,27600.1
+2019,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,19701.8
+2020,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,19819.7
+2021,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,31320.4
+2022,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,31031.2
+2023,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,23083.5
+2024,Millions,"KNBS, Economic Survey Report (Several  editions)","Total resource flows for development, by recipient and donor countries [10.b.1]",Kenyan Shillings,22037.2
+2014,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,6.4
+2015,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,6.0
+2016,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.5
+2017,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.3
+2018,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.2
+2019,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.4
+2020,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.4
+2021,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,9.1
+2022,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.0
+2023,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,8.3
+2024,Units,"Source: The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org""",Remittance costs as a proportion of the amount remitted,Percent,10.6

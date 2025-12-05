@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EG_TBA_H2CO",
+                "EG_TBA_H2CORL",
+                ""
+              ]
+            },
+            "title": "SERIES"
           },
           {
             "name": "Value",
@@ -26,5 +38,5 @@
   ],
   "profile": "data-package",
   "name": "6-5-2",
-  "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation"
+  "title": "Proporción de la superficie de cuencas transfronterizas sujetas a arreglos operacionales para la cooperación en materia de aguas"
 }

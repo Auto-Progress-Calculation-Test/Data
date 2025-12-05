@@ -1,1 +1,5 @@
-Year,Value
+Year,Sex,Degree of urbanisation,COMMENT_OBS,Value
+2024,,,,66.0
+2022,Female,,2022 KCHS,7.3
+2022,Female,Rural,2022 KCHS,8.4
+2022,Female,Urban,2022 KCHS,5.1

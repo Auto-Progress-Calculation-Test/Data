@@ -12,8 +12,45 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Basic Education Statistical Booklets",
+                "Basic Education Statistical Booklet",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of schools with access to electricity, by education level [4.a.1]",
+                "Proportion of schools with access to the internet for pedagogical purposes, by education level [4.a.1]",
+                "Proportion of schools with access to computers for pedagogical purposes, by education level [4.a.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "EDUCATION_LEV",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Primary education",
+                "Secondary",
+                ""
+              ]
+            },
+            "title": "Education level"
           },
           {
             "name": "Value",

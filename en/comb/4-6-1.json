@@ -1,1 +1,1 @@
-{"data":[],"edges":[]}
+{"data":{"Year":[2022,2022,2022,2022],"Sex":["Female","Male","Female","Male"],"Age":["15 to 24 years old","15 to 24 years old","15 to 49 years old","15 to 49 years old"],"Value":[95.3,96.3,91.0,93.9]},"edges":{"From":["Sex"],"To":["Age"]}}

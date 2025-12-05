@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_100402_01",
+                "_L_KE_100402_02",
+                "_L_KE_100402_03",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "10-4-2",
-  "title": "Redistributive impact of fiscal policy on the Gini index"
+  "title": "global_indicators.10-4-2-title"
 }

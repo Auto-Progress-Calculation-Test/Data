@@ -1,1 +1,1 @@
-{"data":[],"edges":[]}
+{"data":{"Year":[2019,2019,2019,2019],"COMMENT_OBS":["Nairobi City County","Mombasa County","Kisumu County","Nakuru Coutny"],"REF_AREA":["KE_NBO","KE_MBA","KE_KIS","KE_NUU"],"Value":[16.4,9.5,67.1,0.1]},"edges":{"From":["COMMENT_OBS"],"To":["REF_AREA"]}}

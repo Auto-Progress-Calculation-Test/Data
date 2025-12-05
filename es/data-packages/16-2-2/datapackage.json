@@ -12,8 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                ""
+              ]
+            },
+            "title": "SEX"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y0T17",
+                "Y_GE18",
+                ""
+              ]
+            },
+            "title": "AGE"
           },
           {
             "name": "Value",
@@ -26,5 +50,5 @@
   ],
   "profile": "data-package",
   "name": "16-2-2",
-  "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation"
+  "title": "Número de víctimas de la trata de personas por cada 100.000 habitantes, desglosado por sexo, edad y tipo de explotación"
 }

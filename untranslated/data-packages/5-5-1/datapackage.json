@@ -12,7 +12,30 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SG_GEN_PARL",
+                "SG_GEN_LOCG",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "OCCUPATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_ISCO08_1111_05",
+                "_L_KE_ISCO08_1111_06",
+                "_L_KE_ISCO08_1111_03",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +47,5 @@
   ],
   "profile": "data-package",
   "name": "5-5-1",
-  "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments"
+  "title": "global_indicators.5-5-1-title"
 }

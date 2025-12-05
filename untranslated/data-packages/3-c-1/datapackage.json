@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic Survey",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "OCCUPATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCO08_221",
+                "ISCO08_2221_3221",
+                "ISCO08_2261",
+                "ISCO08_2262",
+                "ISCO08_3213",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +48,5 @@
   ],
   "profile": "data-package",
   "name": "3-c-1",
-  "title": "Health worker density and distribution"
+  "title": "global_indicators.3-c-1-title"
 }

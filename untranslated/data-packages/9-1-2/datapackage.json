@@ -12,7 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_090102_01",
+                "_L_KE_090102_02",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMPOSITE_BREAKDOWN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MOT_RAI",
+                "MOT_AIR",
+                "MOT_IWW_SEA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NUMBER",
+                "T",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +58,5 @@
   ],
   "profile": "data-package",
   "name": "9-1-2",
-  "title": "Passenger and freight volumes, by mode of transport"
+  "title": "global_indicators.9-1-2-title"
 }

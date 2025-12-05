@@ -1,1 +1,4 @@
 From,To
+COMMENT_OBS,Occupation
+Occupation,Age
+Occupation,Disability status

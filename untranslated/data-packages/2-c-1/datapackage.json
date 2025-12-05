@@ -12,7 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "AG_FPA_COMM",
+                "_L_KE_020C01_01",
+                "_L_KE_020C01_02",
+                "_L_KE_020C01_03",
+                "_L_KE_020C01_04",
+                "_L_KE_020C01_05",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +39,5 @@
   ],
   "profile": "data-package",
   "name": "2-c-1",
-  "title": "Indicator of food price anomalies"
+  "title": "global_indicators.2-c-1-title"
 }

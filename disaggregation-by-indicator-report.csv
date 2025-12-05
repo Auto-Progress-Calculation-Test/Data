@@ -1,2 +1,5 @@
 Indicator,Disaggregations,Number of disaggregations
-#1-1-1,Group,1
+#1-1-1,"URBANISATION, Group",2
+#1-2-1,"URBANISATION, SEX, AGE",3
+#2-2-4,"SEX, AGE",2
+#5-4-1,"URBANISATION, SEX, AGE",3

@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic Survey",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GR_G14_GDP",
+                "_L_KE_170101_01",
+                "_L_KE_170101_02",
+                "_L_KE_170101_03",
+                "_L_KE_170101_04",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +48,5 @@
   ],
   "profile": "data-package",
   "name": "17-1-1",
-  "title": "Total government revenue as a proportion of GDP, by source"
+  "title": "global_indicators.17-1-1-title"
 }

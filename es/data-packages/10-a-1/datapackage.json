@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "10-a-1",
-  "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff"
+  "title": "Proporción de líneas arancelarias que se aplican a las importaciones de los países menos adelantados y los países en desarrollo con arancel cero"
 }

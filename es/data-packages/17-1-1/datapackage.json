@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic Survey",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GR_G14_GDP",
+                "_L_KE_170101_01",
+                "_L_KE_170101_02",
+                "_L_KE_170101_03",
+                "_L_KE_170101_04",
+                ""
+              ]
+            },
+            "title": "SERIES"
           },
           {
             "name": "Value",
@@ -26,5 +52,5 @@
   ],
   "profile": "data-package",
   "name": "17-1-1",
-  "title": "Total government revenue as a proportion of GDP, by source"
+  "title": "Total de ingresos del gobierno en proporción al PIB, desglosado por fuente"
 }

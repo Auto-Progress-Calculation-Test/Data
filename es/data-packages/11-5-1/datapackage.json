@@ -12,12 +12,56 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Kenya National Disaster Operations Centre (NDOC)",
+                "NDOC",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_L_KE_010501_01",
+                "_L_KE_010501_02",
+                "VC_DSR_MORT",
+                "VC_DSR_IJILN",
+                "VC_DSR_MISS",
+                "_L_KE_010501_06",
+                "_L_KE_010501_07",
+                "_L_KE_010501_03",
+                "_L_KE_010501_04",
+                "_L_KE_130101_03",
+                ""
+              ]
+            },
+            "title": "SERIES"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PER_1000000_POP",
+                "NUMBER",
+                ""
+              ]
+            },
+            "title": "UNIT_MEASURE"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -26,5 +70,5 @@
   ],
   "profile": "data-package",
   "name": "11-5-1",
-  "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
+  "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas"
 }

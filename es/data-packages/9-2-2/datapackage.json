@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "9-2-2",
-  "title": "Manufacturing employment as a proportion of total employment"
+  "title": "Empleo del sector manufacturero en proporción al empleo total"
 }

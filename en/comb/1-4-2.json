@@ -1,1 +1,1 @@
-{"data":[],"edges":[]}
+{"data":{"Year":[2024,2022,2022,2022],"Sex":[null,"Female","Female","Female"],"Degree of urbanisation":[null,null,"Rural","Urban"],"COMMENT_OBS":[null,"2022 KCHS","2022 KCHS","2022 KCHS"],"Value":[66.0,7.3,8.4,5.1]},"edges":{"From":["Sex","COMMENT_OBS"],"To":["COMMENT_OBS","Degree of urbanisation"]}}

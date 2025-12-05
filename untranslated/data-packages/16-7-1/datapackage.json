@@ -12,7 +12,78 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic Survey",
+                "Parliamentary Service Commision; Council of Governors",
+                "Judiciary, SOJAR Report",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SG_DMK_PARLMP_UC",
+                "_L_KE_160701_01",
+                "_L_KE_160701_03",
+                "_L_KE_160701_04",
+                "_L_KE_160701_05",
+                "_L_KE_160701_06",
+                "_L_KE_160701_07",
+                "_L_KE_160701_02",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y18T44",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "OCCUPATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ISCO08_2612",
+                "ISCO08_2619R",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "DISABILITY_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PD",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PT",
+                "RO",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +95,5 @@
   ],
   "profile": "data-package",
   "name": "16-7-1",
-  "title": "Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups"
+  "title": "global_indicators.16-7-1-title"
 }

@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economic Survey",
+                "2014: KDHS        Economic Survey , 2022: KDHS",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Y10T14",
+                "Y15T19",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "3-7-2",
-  "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group"
+  "title": "global_indicators.3-7-2-title"
 }

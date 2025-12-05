@@ -1,1 +1,5 @@
-Year,Value
+Year,Degree of urbanisation,Value
+2016,,70.4
+2024,,61.0
+2024,Rural,65.0
+2024,Urban,53.0

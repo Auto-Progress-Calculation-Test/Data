@@ -1,1 +1,5 @@
 From,To
+COMMENT_OBS,Education level
+COMPOSITE_BREAKDOWN,Sex
+COMPOSITE_BREAKDOWN,Degree of urbanisation
+Education level,COMPOSITE_BREAKDOWN

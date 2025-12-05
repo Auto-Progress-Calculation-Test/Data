@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2016:  KIHBS, 2019-21: KCHS",
+                "2016:  KIHBS , 2019-21: KCHS",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "URBANISATION",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "R",
+                "U",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "2-1-1",
-  "title": "Prevalence of undernourishment"
+  "title": "global_indicators.2-1-1-title"
 }

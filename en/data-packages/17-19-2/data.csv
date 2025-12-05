@@ -1,1 +1,34 @@
-Year,Value
+Year,COMMENT_OBS,SERIES,UNIT_MEASURE,Value
+2014,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2015,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2016,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2017,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2018,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2019,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2020,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2021,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2022,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2023,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2024,KNBS,Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO) [17.19.2],Boolean or binary measure,1.0
+2014,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,70.2
+2015,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,65.8
+2016,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,64.1
+2017,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,60.9
+2018,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,73.4
+2019,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,76.2
+2020,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,79.9
+2021,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,83.2
+2022,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,80.6
+2023,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,76.6
+2024,"2019: KPHC, Others: Civil Registration Services",Percentage birth registration,Percent,70.3
+2014,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,45.8
+2015,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,45.2
+2016,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,41.9
+2017,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,41.2
+2018,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,40.5
+2019,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,39.1
+2020,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,42.3
+2021,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,52.3
+2022,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,47.6
+2023,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,45.2
+2024,"2019: KPHC, Others: Civil Registration Services",Percentage death registration,Percent,44.8

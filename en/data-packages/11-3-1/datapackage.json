@@ -12,8 +12,22 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nairobi",
+                "Mombasa",
+                "Kisumu",
+                "Nakuru",
+                ""
+              ]
+            },
+            "title": "Reference area"
           },
           {
             "name": "Value",
